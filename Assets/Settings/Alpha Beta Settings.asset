@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce57a5067e21804cbade1d7fd5b1fcd, type: 3}
+  m_Name: Alpha Beta Settings
+  m_EditorClassIdentifier: 
+  useThreading: 1
+  useTimeLimit: 1
+  searchTimeMillis: 5000
+  endlessSearchMode: 0
+  useBook: 1
+  book: {fileID: 4900000, guid: 7473c7aa9594747efb1706cc9c268ef3, type: 3}
+  maxBookPly: 10
+  promotionsToSearch: 0
+  diagnostics:
+    lastCompletedDepth: 3
+    moveVal: Rxh6
+    move: h8-h6
+    eval: -99998
+    isBook: 0
+    numPositionsEvaluated: 485
+  depth: 10
+  useIterativeDeepening: 1
+  useTranspositionTable: 1
+  useFixedDepthSearch: 1
+  clearTTEachMove: 0
